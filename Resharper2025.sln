@@ -24,8 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractInterfaceSample", "E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Topics", "Topics", "{93EF766D-1F49-47B2-84E9-511E6420CD00}"
 	ProjectSection(SolutionItems) = preProject
-		CopyTypeRefactoring.mb = CopyTypeRefactoring.mb
 		FileStructure.md = FileStructure.md
+		CopyTypeRefactoring.md = CopyTypeRefactoring.md
 		TemplateExplorer.md = TemplateExplorer.md
 		Templates.md = Templates.md
 	EndProjectSection
