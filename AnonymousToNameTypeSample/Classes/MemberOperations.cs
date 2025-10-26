@@ -1,5 +1,4 @@
 ﻿using AnonymousToNameTypeSample.Models;
-using System.Linq;
 
 namespace AnonymousToNameTypeSample.Classes;
 internal class MemberOperations
