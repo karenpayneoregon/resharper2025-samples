@@ -11,7 +11,7 @@ internal partial class Program
         
         var personsDump = ObjectDumper.Dump(people);
 
-        AnsiConsole.MarkupLine(personsDump.Replace("new", "[hotpink2]new[/]"));
+        AnsiConsole.MarkupLine(personsDump);
         
         SpectreConsoleHelpers.ExitPrompt();
     }
