@@ -1,5 +1,9 @@
 ﻿
 namespace SpectreConsoleLibrary;
+
+/// <summary>
+/// Provides utility methods for working with file paths and project structures.
+/// </summary>
 public class Utilities
 {
     /// <summary>

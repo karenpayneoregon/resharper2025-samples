@@ -5,10 +5,13 @@
 		<TargetFramework>net9.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
+		<Copyright>2024-$([System.DateTime]::Now.Year) Karen Payne</Copyright>
+		<Company>Payne coding</Company>
+		<Product>Code samples</Product>
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<Product>AnonymousToNameTypeSample    </Product>
+		<Product>AnonymousToNameTypeSample</Product>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
