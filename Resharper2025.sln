@@ -25,11 +25,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractInterfaceSample", "E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Topics", "Topics", "{93EF766D-1F49-47B2-84E9-511E6420CD00}"
 	ProjectSection(SolutionItems) = preProject
-		FileStructure.md = FileStructure.md
 		CopyTypeRefactoring.md = CopyTypeRefactoring.md
+		FileStructure.md = FileStructure.md
 		TemplateExplorer.md = TemplateExplorer.md
 		Templates.md = Templates.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToGeneratedRegexSample", "ToGeneratedRegexSample\ToGeneratedRegexSample.csproj", "{4641EDCB-64FB-44B6-ABEC-00D0DF458784}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INotifyPropertyChangedSample", "INotifyPropertyChangedSample\INotifyPropertyChangedSample.csproj", "{51A7DF04-B708-40D5-91AD-E3CFDB6A5C63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +65,14 @@ Global
 		{B1D21EDA-C141-459F-BD82-7E62C7044584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1D21EDA-C141-459F-BD82-7E62C7044584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1D21EDA-C141-459F-BD82-7E62C7044584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4641EDCB-64FB-44B6-ABEC-00D0DF458784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4641EDCB-64FB-44B6-ABEC-00D0DF458784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4641EDCB-64FB-44B6-ABEC-00D0DF458784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4641EDCB-64FB-44B6-ABEC-00D0DF458784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A7DF04-B708-40D5-91AD-E3CFDB6A5C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A7DF04-B708-40D5-91AD-E3CFDB6A5C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A7DF04-B708-40D5-91AD-E3CFDB6A5C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A7DF04-B708-40D5-91AD-E3CFDB6A5C63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

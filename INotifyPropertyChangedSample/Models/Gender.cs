@@ -1,4 +1,4 @@
-﻿namespace AnonymousToNameTypeSample.Models;
+﻿namespace INotifyPropertyChangedSample.Models;
 
 public enum Gender
 {

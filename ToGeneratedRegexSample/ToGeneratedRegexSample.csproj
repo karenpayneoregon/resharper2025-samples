@@ -5,14 +5,10 @@
 		<TargetFramework>net9.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<LangVersion>preview</LangVersion>
-		<Copyright>2024-$([System.DateTime]::Now.Year) Karen Payne</Copyright>
-		<Company>Payne coding</Company>
-		<Product>Code samples</Product>
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<Product>Extract Interface Sample</Product>
+		<Product>Template</Product>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -36,17 +32,18 @@
 		<PackageReference Include="Spectre.Console" Version="0.50.0" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <ProjectReference Include="..\SpectreConsoleLibrary\SpectreConsoleLibrary.csproj" />
+	<!--<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.7" />
 	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.0" />
+		<PackageReference Include="Dapper" Version="2.1.66" />
+	</ItemGroup>-->
 
 	<ItemGroup>
 	  <None Update="appsettings.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Interfaces\" />
 	</ItemGroup>
 </Project>
