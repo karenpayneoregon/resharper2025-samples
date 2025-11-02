@@ -3,7 +3,7 @@
 namespace INotifyPropertyChangedSample.Models;
 
 
-public class Person : INotifyPropertyChanged
+public class Person //: INotifyPropertyChanged
 {
     public int Id { get; set; }
     public required string FirstName { get; set; }

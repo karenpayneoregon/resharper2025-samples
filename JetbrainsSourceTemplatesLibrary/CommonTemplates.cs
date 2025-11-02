@@ -34,9 +34,10 @@ public static class CommonTemplates
     /// </param>
     [SourceTemplate]
     [Macro(Target = "T")]
+    [Macro(Target = "json", Expression = "suggestVariableName()")]
     public static void serialize<T>(this IEnumerable<T> sender)
     {
-        JsonSerializer.Serialize(sender, new JsonSerializerOptions() {WriteIndented = true});
+        var json = JsonSerializer.Serialize(sender, new JsonSerializerOptions() {WriteIndented = true});
         //$ $END$
     }
 
@@ -114,4 +115,5 @@ public static class CommonTemplates
 
         }
     }
+
 }

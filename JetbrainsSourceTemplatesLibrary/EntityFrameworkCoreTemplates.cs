@@ -8,6 +8,14 @@ using Microsoft.Extensions.Logging;
 // ReSharper disable IDE1006
 
 namespace JetbrainsSourceTemplatesLibrary;
+
+/// <summary>
+/// Provides a set of extension methods and templates for configuring and managing 
+/// Entity Framework Core <see cref="DbContext"/> instances in ASP.NET Core applications.
+/// </summary>
+/// <remarks>
+/// DbContextToFileLogger https://www.nuget.org/packages/EntityCoreFileLogger/
+/// </remarks>
 public static class EntityFrameworkCoreTemplates
 {
     /// <summary>
